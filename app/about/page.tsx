@@ -1,5 +1,12 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'About Page',
+  description: 'about our company',
+  icons: '/favicon.ico'
+}
 
 function About() {
   return (
