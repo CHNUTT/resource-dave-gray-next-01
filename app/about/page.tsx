@@ -5,10 +5,11 @@ import React from 'react';
 export const metadata: Metadata = {
   title: 'About Page',
   description: 'about our company',
-  icons: '/favicon.ico'
-}
+  icons: '/favicon.ico',
+};
 
 function About() {
+  // throw new Error('Not today!');
   return (
     <>
       <h1>About Page</h1>
